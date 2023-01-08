@@ -1,5 +1,6 @@
-"# 301DaysOfCode" 
+# 301 Days of Code
 
-# Daily code Project upload on this repo
+Welcome to the 301 Days of Code challenge! This challenge is designed to encourage and support you in your journey to become a proficient programmer.
 
- # Day 1
+# What is the challenge?
+The challenge is simple: code for at least an hour every day for 301 days. That's it! The goal is to develop a consistent coding habit and to improve your skills through daily practice.
