@@ -16,3 +16,8 @@ The challenge is simple: code for at least an hour every day for 301 days.
   # Day0 of #301Daysofcode 
 
   link -> create a social media post and share it on social media
+
+
+  # Day1 of #301Daysofcode 
+
+ codepen link -> https://codepen.io/gurnav-chaudhary/full/BaPWzwQ
