@@ -23,6 +23,6 @@ The challenge is simple: code for at least an hour every day for 301 days.
  codepen link -> https://codepen.io/gurnav-chaudhary/full/BaPWzwQ
 
 
- # Day2 of #301DaysofCode 
+ # Day2 , 3 of #301DaysofCode 
 
  codepen link https://codepen.io/gurnav-chaudhary/full/xxJqoyB
