@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+
+   <style>
+    .accordion{
+        padding: 18px;
+        width: 100%;
+        background-color: #403636;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: rgb(214, 187, 187);
+        font-size: 1.5rem;
+        text-align: left;
+        transition: 0.4s;
+    }
+    .active,.accordion:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+
+    .panel{
+        display: none;
+        overflow: hidden;
+        padding: 0 18px;
+        background-color: gray;
+    }
+   </style>
+</head>
+<body>
+    <h2>Accordion</h2>
+     
+     <button class="accordion">Section 1</button>
+     <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur, quae voluptate sint obcaecati amet iure assumenda veritatis nihil qui?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, obcaecati?</p>
+     </div>
+      
+     <button class="accordion">Section 2</button>
+     <div class="panel">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, natus iure! Aperiam a illum ad, tempore nesciunt obcaecati debitis! Suscipit iure sequi omnis recusandae deserunt provident ratione rem! Quaerat, praesentium.</p>
+     </div>
+
+     <button class="accordion">Section 3</button>
+    <div class="panel">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quidem consequatur ipsam ipsum dignissimos eius accusantium. Iusto et, unde dolorum quae blanditiis esse consectetur harum excepturi repudiandae earum impedit accusantium!</p>
+    </div>
+
+
+    <script>
+        var arr = document.querySelectorAll('.accordion')
+
+        
+        
+        for(let i=0; i<arr.length; i++){
+            
+            console.log(arr[i]);
+
+            arr[i].addEventListener('click',function (){
+                this.classList.toggle('active')
+
+                var panel = this.nextElementSibling;
+
+
+
+                if(panel.style.display ==="block"){
+                    panel.style.display = "none";
+                }
+                else{
+                    panel.style.display = "block"
+                }
+            })
+        }
+    </script>
+     
+</body>
+</html>
