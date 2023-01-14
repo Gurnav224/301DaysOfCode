@@ -6,34 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accordion</title>
 
-   <style>
-    .accordion{
-        padding: 18px;
-        width: 100%;
-        background-color: #403636;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        color: rgb(214, 187, 187);
-        font-size: 1.5rem;
-        text-align: left;
-        transition: 0.4s;
-    }
-    .active,.accordion:hover{
-        background-color: #ccc;
-        color: #000;
-    }
-
-    .panel{
-        display: none;
-        overflow: hidden;
-        padding: 0 18px;
-        background-color: gray;
-    }
-   </style>
+      <link rel="stylesheet" href="/day-5-Accordion/style.css">
 </head>
 <body>
-    <h2>Accordion</h2>
+    <h1>Accordion</h1>
      
      <button class="accordion">Section 1</button>
      <div class="panel">
@@ -51,30 +27,8 @@
     </div>
 
 
-    <script>
-        var arr = document.querySelectorAll('.accordion')
-
-        
-        
-        for(let i=0; i<arr.length; i++){
-            
-            console.log(arr[i]);
-
-            arr[i].addEventListener('click',function (){
-                this.classList.toggle('active')
-
-                var panel = this.nextElementSibling;
-
-
-
-                if(panel.style.display ==="block"){
-                    panel.style.display = "none";
-                }
-                else{
-                    panel.style.display = "block"
-                }
-            })
-        }
+    <script src="/day-5-Accordion/script.js">
+       
     </script>
      
 </body>

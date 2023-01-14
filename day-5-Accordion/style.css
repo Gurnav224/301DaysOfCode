@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: grey;
+    font-family: monospace;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.accordion{
+
+    
+    padding: 18px;
+    width: 100%;
+    background-color: #403636;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(214, 187, 187);
+    font-size: 1.5rem;
+    text-align: left;
+    transition: 0.4s;
+}
+.active,.accordion:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+
+.panel{
+    display: none;
+    overflow: hidden;
+   width: 800px;
+    padding: 0 18px;
+    background-color: gray;
+}
