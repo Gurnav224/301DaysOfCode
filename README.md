@@ -35,3 +35,10 @@ The challenge is simple: code for at least an hour every day for 301 days.
  # day 5 of #301DaysofCode
 
  codepen link https://codepen.io/gurnav-chaudhary/pen/LYBLXpQ
+
+
+ # day 6 of #301DaysofCode 
+
+ revision of day1 to day 5
+
+ codepen link https://codepen.io/gurnav-chaudhary/pen/LYBjNEp
