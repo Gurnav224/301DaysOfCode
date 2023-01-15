@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f3f3;
+    color: #000;
+}
+
+.menu{
+    padding: 1rem;
+  
+}
+
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0px;
+    transition: 0.4s;
+    cursor: pointer;
+ 
+}
+
+ul {
+    display: none;
+}
+
+.change ul{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    list-style: none;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+li{
+    background-color: blue;
+    padding: 0.5rem 2rem;
+    border-radius: 6%;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.dark-mode{
+margin-top: 1rem;
+margin-left: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 1.7rem;
+    border-radius: 30%;
+}
+
+.change .bar1 {
+    transform: translate(0,11px) rotate(-45deg);
+}
+
+.change .bar2{
+    opacity: 0;
+}
+
+.change .bar3{
+    transform: translate(0,-11px) rotate(45deg);
+}
+
+
+.changeTheme{
+    background-color: #000;
+    color: #fff;
+}
+
+.changeTheme .dark-mode{
+    color: #000;
+}
+
+.changeTheme .bar{
+    background-color: #fff;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.accordion{
+    width: 100%;
+    padding: 15px 40px;
+    text-align: left;
+    font-size: 1.4rem;
+    outline: none;
+    cursor: pointer;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.panel{
+    display: none;
+    padding: 0 15px;
+    width: 800px;
+}
+
+
+
+.active,.accordion:hover {
+    background-color: #ecdfdf;
+}
+
+
+.changeTheme .active{
+    background-color: #1f1e1e;
+}
