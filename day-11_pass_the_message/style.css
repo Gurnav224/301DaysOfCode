@@ -1,0 +1,46 @@
+
+
+body{
+    background-color: #2275c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+   background-color: #aaa;
+   padding: 2rem;
+   text-align: center;
+   box-shadow: 0px 5px 10px #434343;
+   border-radius: 5px;
+}
+
+.container input {
+    width: 100%;
+    padding: 12px 0;
+    outline: none;
+    margin: 0 auto;
+}
+
+
+.MsgBtn{
+    margin-top: 0.7rem;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+    background-color: rgb(100, 93, 93);
+    color: #fff;
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+
+h3{
+    color: #2275c2;
+}
+
+#showMsg{
+    font-size: 1.5rem;
+    font-style: italic;
+}

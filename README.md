@@ -18,48 +18,58 @@ The challenge is simple: code for at least an hour every day for 301 days.
   link -> create a social media post and share it on social media
 
 
-  # Day1 of #301Daysofcode 
+  # Day1 of #301Daysofcode  
+  # project name = icon-navbar
 
  codepen link -> https://codepen.io/gurnav-chaudhary/full/BaPWzwQ
 
 
  # Day2 , 3 of #301DaysofCode 
 
+# project name = menu-icon
  codepen link https://codepen.io/gurnav-chaudhary/full/xxJqoyB
 
  # day 4 of #301DaysofCode 
 
+ # project name = background change
  codepen link  https://codepen.io/gurnav-chaudhary/pen/vYaZGvr
 
 
  # day 5 of #301DaysofCode
+  
+  # project name = accordion 
 
  codepen link https://codepen.io/gurnav-chaudhary/pen/LYBLXpQ
 
 
  # day 6 of #301DaysofCode 
+ 
 
- revision of day1 to day 5
+ # revision of day1 to day 5
 
  codepen link https://codepen.io/gurnav-chaudhary/pen/LYBjNEp
 
 
  # day7 of #301Daysofcode 
 
-
+# project name = tab
  codepen link https://codepen.io/gurnav-chaudhary/pen/qByXyjV
 
 
 # day8  of #301daysofcod3
 
+# project name = vertical tab
 codpen link https://codepen.io/gurnav-chaudhary/pen/VwBMaxP
 
 
 # day9 of #301daysofcode 
 
+# project name = counter
 codepen link https://codepen.io/gurnav-chaudhary/pen/dyjZbZY
 
 
 # day10 of #301daysofcode 
+ 
+ # project name = Quote Generator
 
 codepen link https://codepen.io/gurnav-chaudhary/pen/JjBOrox
