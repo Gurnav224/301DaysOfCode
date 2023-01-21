@@ -77,4 +77,12 @@ codepen link https://codepen.io/gurnav-chaudhary/pen/JjBOrox
 
 # day11 of #301daysofcode 
 
+# project name = pass the message
 codepen link https://codepen.io/gurnav-chaudhary/pen/Expoabb
+
+
+# day12 of #301dayofcode 
+
+# project - weight converter 
+
+codpen link https://codepen.io/gurnav-chaudhary/pen/JjBMZbe
