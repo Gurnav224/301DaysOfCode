@@ -1,0 +1,45 @@
+
+body{
+    background: linear-gradient(90deg, #bae8eb 0%, #bcbcd2 35%, #84c0cc 100%);
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    background-color: #53c6dd;
+    padding: 3rem;
+    box-shadow: 3px 8px 12px ;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input{
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+button{
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #10a89c;
+    border: none;
+    border-radius: 8px;
+    color: #102325;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+h2{
+    font-size: 1.3rem;
+    font-style: italic;
+}
