@@ -93,3 +93,9 @@ codpen link https://codepen.io/gurnav-chaudhary/pen/JjBMZbe
 # project - Temperature Converter 
 
 codepen link https://codepen.io/gurnav-chaudhary/pen/abjqzvB
+
+
+# day 14 of #301daysofcode 
+# project - text to speech
+
+codpen link https://codepen.io/gurnav-chaudhary/pen/rNrJzme
