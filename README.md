@@ -99,3 +99,8 @@ codepen link https://codepen.io/gurnav-chaudhary/pen/abjqzvB
 # project - text to speech
 
 codpen link https://codepen.io/gurnav-chaudhary/pen/rNrJzme
+
+
+# day 15 of #301daysofcode 
+
+linux lec01 of web development bootcamp
