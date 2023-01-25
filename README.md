@@ -104,3 +104,9 @@ codpen link https://codepen.io/gurnav-chaudhary/pen/rNrJzme
 # day 15 of #301daysofcode 
 
 linux lec01 of web development bootcamp
+
+
+
+# day 16 of #301daysofcode 
+
+linux lec02 of web development of bootcamp
