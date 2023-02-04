@@ -141,3 +141,11 @@ linux lec06 and lec07 of web development
 
 complete git 
 
+# day 24 of #301daysofcode 
+
+revision of git 
+
+# day 25 of #301daysofcode
+
+html 5 complete video
+
