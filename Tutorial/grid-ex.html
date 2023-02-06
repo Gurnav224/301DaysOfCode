@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+
+    <style>
+
+#grid1{
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows:250px;
+    text-align: center;
+}
+
+#image {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.box{
+    background-color: grey;
+    border: 1px solid black;
+}
+
+#grid2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 250px;
+    text-align: center;
+
+}
+
+#join-us{
+    grid-column: 1/5;
+}
+
+#grid3{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.small-box{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+       
+    </style>
+
+</head>
+<body>
+       <div id="grid1">
+        <div class="box" id="title">Title</div>
+        <div class="box" id="paragrahp">Paragraph</div>
+        <div class="box" id="image">Image</div>
+       </div>
+
+       <div id="grid2">
+        <div class="box" id="join-us">Join Us</div>
+        <div class="box" id="grid3">
+          <div class="small-box">logo</div>
+          <div class="small-box">name</div>
+          <div class="small-box">stats</div>
+          <div class="small-box">button</div>
+        </div>
+        <div class="box" id="grid3">
+          <div class="small-box">logo</div>
+          <div class="small-box">name</div>
+          <div class="small-box">stats</div>
+          <div class="small-box">button</div>
+        </div>
+        <div class="box" id="grid3">
+          <div class="small-box">logo</div>
+          <div class="small-box">name</div>
+          <div class="small-box">stats</div>
+          <div class="small-box">button</div>
+        </div>
+        <div class="box" id="grid3">
+          <div class="small-box">logo</div>
+          <div class="small-box">name</div>
+          <div class="small-box">stats</div>
+          <div class="small-box">button</div>
+        </div>
+
+       </div>
+
+</body>
+</html>
