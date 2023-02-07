@@ -149,3 +149,14 @@ revision of git
 
 html 5 complete video
 
+# day 26 of #301daysofcode 
+
+html 5 part 2 
+
+# day 27 of #301daysofcode
+
+css flexbox and css grid
+
+# day 28 of #301daysofcode
+
+lesson 4 of neogcamp
