@@ -168,3 +168,7 @@ mark six and mark seven complete
 # 30 of #301daysofcode 
 
 create react movie app with movies json and props in react
+
+# 31 of #301ofdaysofcode
+
+solve virtual tech assignment
