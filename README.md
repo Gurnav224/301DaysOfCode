@@ -176,3 +176,7 @@ solve virtual tech assignment
 # 32 of #301daysofcode
 
 Complete neogcamp react emoji interpreter app
+
+# 33 of #301daysofcode 
+
+create food recommendation using react js
