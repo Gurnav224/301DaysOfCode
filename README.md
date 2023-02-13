@@ -180,3 +180,11 @@ Complete neogcamp react emoji interpreter app
 # 33 of #301daysofcode 
 
 create food recommendation using react js
+
+# 34 of #301daysofcode 
+
+create counter app with html css and javascript
+
+# project Link 
+
+https://codepen.io/gurnav-chaudhary/pen/GRXKdob
