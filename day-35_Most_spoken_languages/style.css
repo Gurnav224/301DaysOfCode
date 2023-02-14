@@ -1,0 +1,40 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #93e2e4;
+    color: #141212;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.country {
+    display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.name {
+    font-size: 2.2rem;
+}
+
+.location{
+    font-size: 1.8rem;
+
+}
+.population {
+    font-size: 1.6rem;
+}
+.country-card{
+    background-color: cadetblue;
+    margin: 1rem;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 12px 15px rgb(14, 17, 18);
+}
