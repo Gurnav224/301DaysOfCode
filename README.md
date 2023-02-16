@@ -197,3 +197,16 @@ https://codepen.io/gurnav-chaudhary/pen/GRXKdob
 
  # project link 
  https://codepen.io/gurnav-chaudhary/pen/qBMBaLg
+
+
+ # day36 of #301daysofcode
+
+ # project bmi calculator
+
+ https://codepen.io/gurnav-chaudhary/pen/NWLWVWd
+
+ # day 37 of #301daysofcode
+
+ # Country App 
+
+ link  here https://codepen.io/gurnav-chaudhary/full/bGxNORX
