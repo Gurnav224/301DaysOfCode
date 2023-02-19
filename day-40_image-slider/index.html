@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Slider</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        font-size: 4rem;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .slideshow-container{
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        
+    }
+    .allslides{
+        display: none;
+    }
+    img {
+        width: 100%;
+        height: 300px;
+    }
+    .prev,.next{
+        background-color: black;
+        color: #fff;
+        font-size: 2rem;
+        padding: 1rem;
+        position: absolute;
+        top: 34%;
+        cursor: pointer;
+    }
+
+    .next{
+        right: 0;
+        border: 0 3px 3px 0 ;
+    }
+    .numbertext{
+        color: #fff;
+        position: absolute;
+        padding-left: 5px;
+        padding-top: 5px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .captiontext{
+        background-color: ghostwhite;
+        position: absolute;
+        bottom: 23px;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .dot{
+        width: 15px;
+        height: 15px;
+        background-color: #eecdcd;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .active , .dot:hover{
+        background-color: #2d2b2b;
+    }
+</style>
+<body>
+    <h1>Banner Slider</h1>
+    <div class="slideshow-container">
+        <div class="allslides">
+            <div class="numbertext">1/5</div>
+            <img src="1.jpg" alt="">
+            <div class="captiontext">Image One</div>
+        </div>
+        <div class="allslides">
+            <div class="numbertext">2/5</div>
+            <img src="2.jpg" alt="">
+            <div class="captiontext">Image Two</div>
+        </div>
+        <div class="allslides">
+            <div class="numbertext">3/5</div>
+            <img src="3.jpg" alt="">
+            <div class="captiontext">Image Three</div>
+        </div>
+        <div class="allslides">
+            <div class="numbertext">4/5</div>
+            <img src="4.jpg" alt="">
+            <div class="captiontext">Image Four</div>
+        </div>
+        <div class="allslides">
+            <div class="numbertext">5/5</div>
+            <img src="5.jpg" alt="">
+            <div class="captiontext">Image Five</div>
+        </div>
+        <div style="text-align: center;">
+            <span class="dot " onclick="currentSlide(1)"></span>
+            <span class="dot " onclick="currentSlide(2)"></span>
+            <span class="dot " onclick="currentSlide(3)"></span>
+            <span class="dot " onclick="currentSlide(4)"></span>
+            <span class="dot " onclick="currentSlide(5)"></span>
+        </div>
+        <a onclick="plusSlides(-1)" class="prev">&lt;</a>
+        <a onclick="plusSlides(1)" class="next">&gt;</a>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+         showSlide(slideIndex);
+
+         function plusSlides(n){
+            showSlide(slideIndex +=n)
+         }
+
+         function currentSlide(n){
+            showSlide(slideIndex = n)
+         }
+
+
+        function showSlide(n){
+        let slides = document.querySelectorAll('.allslides');
+        let dots = document.querySelectorAll('.dot')
+
+        console.log(dots);
+
+
+        if(n>slides.length){
+            slideIndex = 1;
+        }
+
+        if(n<1){
+            slideIndex =slides.length;
+        }
+
+        for(let i=0; i<slides.length; i++){
+
+            slides[i].style.display = "none"
+        }
+
+        for(let i=0; i<dots.length; i++){
+
+            console.log(dots[i]);
+            dots[i].className = dots[i].className.replace(" active", " ")
+        }
+
+
+         slides[slideIndex-1].style.display = 'block';
+         dots[slideIndex-1].className += "active";
+        }
+    </script>
+</body>
+</html>
