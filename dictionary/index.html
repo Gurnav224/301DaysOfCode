@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+</head>
+<style>
+    body{
+        font-family: sans-serif;
+    }
+
+.container{
+    text-align: center;
+}   
+   
+
+input {
+    display: block;
+    margin-bottom: 1rem;
+    width: 60%;
+    margin: 2rem auto;
+    padding: 1rem 2rem ;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    width: 50%;
+    font-size: 2rem;
+    background-color: aquamarine;
+    color: #2783d4;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+</style>
+<body>
+    <div class="container">
+
+    <input id="word" placeholder="search word meaning" type="text">
+
+    <button onclick=" getWordMeaning()"> Word meaning</button>
+    <h2 id="currentWord">word</h2>
+    <p id="origin">origin</p>
+    <p id="phonetic">phonetic</p>
+<p id="meaning">Word meaning</p>
+
+    </div>
+    <script>
+
+var wordValue = document.querySelector('#word');
+var currentWord = document.querySelector('#currentWord');
+var meaning = document.querySelector('#meaning');
+var origin = document.querySelector('#origin');
+var phonetic = document.querySelector('#phonetic')
+
+
+        var url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
+
+        function ServerURL(search){
+
+
+            
+            return url+search;
+            
+        }
+
+
+        function getWordMeaning(){
+            var word  = wordValue.value;
+            fetch(ServerURL(word))
+            .then(repsone=>repsone.json())
+            .then((data)=>{
+                  currentWord.innerText = data[0].word;
+                    meaning.innerText = data[0].meanings[0].definitions[0].definition;
+                    origin.innerText = data[0].origin;
+                    phonetic.innerText = data[0].phonetic;
+;
+            })
+        }
+
+        getWordMeaning();
+    </script>
+</body>
+</html>
