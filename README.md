@@ -210,3 +210,22 @@ https://codepen.io/gurnav-chaudhary/pen/GRXKdob
  # Country App 
 
  link  here https://codepen.io/gurnav-chaudhary/full/bGxNORX
+
+ # day 38 ,39
+
+ # cash manager app
+
+ link https://cash-application.netlify.app/
+
+
+ # day40 image slider
+
+
+
+ # day-41  word-dictionary
+
+ link https://codepen.io/gurnav-chaudhary/pen/GRXoZBb
+
+# day-42 frontend mentor qr-code challenge solve
+
+link  https://qr-code-components.gurnav224.repl.co/
