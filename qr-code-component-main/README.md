@@ -2,6 +2,9 @@
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
+
+[solution project link](https://qr-code-components.gurnav224.repl.co/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
