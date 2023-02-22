@@ -1,5 +1,8 @@
 # Frontend Mentor - Order summary card
 
+
+# solution Preview https://order-summary-card.gurnav224.repl.co/
+
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
