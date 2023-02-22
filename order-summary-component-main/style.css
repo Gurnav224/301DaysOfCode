@@ -93,10 +93,12 @@ button{
     font-weight: 600;
     margin-top: 2rem;
     box-shadow: rgba(41, 81, 183, 0.744) 0px 2px 8px 0px;
+    cursor: pointer;
 }
 
 .order{
     padding-top: 1rem;
+    cursor: pointer;
 }
 
 
