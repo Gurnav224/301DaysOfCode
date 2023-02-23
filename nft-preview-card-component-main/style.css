@@ -68,6 +68,7 @@ margin-bottom: -300px;
 pointer-events: none;
 transition: .5s ease-in-out;
 opacity: 0;
+padding: 1rem;
 }
 
 .nft-card .card-img:hover .icon,
@@ -87,6 +88,11 @@ opacity: 0;
     padding:0.5rem 1rem;
     font-size: 1.2rem;
     color:  hsl(215, 51%, 70%);
+}
+
+
+.card-content{
+    padding: 1rem;
 }
 
 .eth{
@@ -131,7 +137,7 @@ opacity: 0;
 
 .avatar{
     text-align: center;
-    padding-top: 1.4rem;
+    padding-top: 0.6rem;
     padding-bottom: 1.5rem;
   margin-right: 4rem;
 
@@ -161,6 +167,10 @@ b{
 @media  screen and (max-width:400px) {
     body{
         padding-top: 10rem;
+    }
+
+    .avatar{
+        padding: 0.4rem;
     }
 
  
