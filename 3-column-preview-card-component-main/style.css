@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --brightOrange:hsl(31, 77%, 52%);
+    --darkCyan:hsl(184, 100%, 22%);
+    --veryDarkCyan:hsl(179, 100%, 13%);
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%) ;
+
+}
+
+
+
+.bgOrange{
+    background-color: var(--brightOrange);
+
+}
+
+.bgCyan{
+    background-color: var(--darkCyan);
+}
+
+.bgDarkCyan{
+    background-color: var(--veryDarkCyan);
+}
+
+
+.card-container{
+    display: flex;
+    max-width: 920px;
+    margin: auto;
+    min-height: 500px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.card-content img {
+    width: 64px;
+}
+
+.card-content h2{
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    
+    color:  hsl(0, 0%, 95%);
+}
+
+.card-content p{
+    letter-spacing: 1px;
+    line-height:1.5rem;
+    color: hsla(0, 0%, 100%, 0.756);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+}
+.card-content{
+   width: 75%;
+   margin: 0 auto;
+}
+
+
+.card a {
+    border: 2px solid  hsl(0, 0%, 95%);
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    background-color:  hsl(0, 0%, 95%);
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.card a:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+.bgOrange a{
+    color: var(--brightOrange);
+
+}
+
+.bgCyan a{
+    color: var(--darkCyan);
+}
+
+.bgDarkCyan a{
+    color: var(--veryDarkCyan);
+}
+
+
+@media screen and (max-width:820px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .card{
+        min-height: 500px;
+    }
+}
+
+
+
+@media screen  and (max-width:500px){
+    .card-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.attribution { 
+    font-size: 2rem;
+     text-align: center; 
+     color: black;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+
