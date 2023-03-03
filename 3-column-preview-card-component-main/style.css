@@ -16,7 +16,7 @@
 }
 
 body{
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -63,7 +63,7 @@ body{
     width: 64px;
 }
 
-.card-content h2{
+.card-content h1 {
     font-size: 2.5rem;
     padding: 2rem 0;
     
